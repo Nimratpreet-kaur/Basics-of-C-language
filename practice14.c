@@ -1,10 +1,12 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 int main()
-{
-    int i;
-    i=0;
-    while (i <= 5)
+{ // ques. print number from 0 to n where n is number given by user
+    int i, n;
+    i = 0;
+    printf("Enter a number:");
+    scanf("%d", &n);
+    while (i <= n)
     {
         printf("%d \n", i);
         i++;
