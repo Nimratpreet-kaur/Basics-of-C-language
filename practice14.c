@@ -11,5 +11,10 @@ int main()
         printf("%d \n", i);
         i++;
     }
+    /* method 2
+    do{
+    printf("%d \n",i);
+    i++;}while(i <= n-1);
+    */
     return 0;
-}
+}           
